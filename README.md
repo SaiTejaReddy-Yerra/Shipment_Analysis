@@ -65,7 +65,7 @@ The main objectives of this project are to:
 ![Total Cost Distribution](images/Total%20Cost%20Distribution.png)  
 *Distribution of total shipment costs.*
 
-![Delay Distribution](images/Delay%20Distribution.png)  
+![Profit Distribution](images/profit.png)  
 *Distribution of shipment delays across all records.*
 
 ---
