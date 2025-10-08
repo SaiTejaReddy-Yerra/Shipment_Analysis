@@ -60,8 +60,8 @@ The main objectives of this project are to:
 - Histograms and boxplots for key metrics such as **Profit**, **Cost**, and **Delay**.  
 - Value counts for categorical variables like **Company**, **Mode**, and **Priority**.  
 
-![Cost Distribution](images/Total_Cost_Distribution.png)
-![Delay Distribution](images/Delay_Distribution.png)
+![Cost Distribution](images/Total Cost Distribution.png)
+![Delay Distribution](images/Delay Distribution.png)
 
 
 #### B. Bivariate & Multivariate Analysis
@@ -69,9 +69,9 @@ The main objectives of this project are to:
 - Correlation heatmap to understand relationships among numeric features.  
 - Insights derived on how mode, distance, and weight impact total shipment cost.
 
-![Delay by Category](images/Delay_by_Category.png)
-![Profit by category](images/profit_by_Category.png)
-![Shipment cost by company](images/Shipment_cost_by_company.png)
+![Delay by Category](images/Delay by Category.png)
+![Profit by category](images/profit by Category.png)
+![Shipment cost by company](images/Shipment cost by company.png)
 ![Frequency by Shipment mode](images/Frequency_by_shipment_mode.png)
 ![Frequency by shipment priority](images/Frequency_by_shipment_priority.png)
 ![Correlation Heatmap](images/correlation.png)
