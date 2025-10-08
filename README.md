@@ -56,25 +56,44 @@ The main objectives of this project are to:
 - Ensured all numeric fields were in the correct data type.
 
 ### 📊 2. Exploratory Data Analysis (EDA)
-#### A. Univariate Analysis
-- Histograms and boxplots for key metrics such as **Profit**, **Cost**, and **Delay**.  
-- Value counts for categorical variables like **Company**, **Mode**, and **Priority**.  
 
-![Cost Distribution](images/Total Cost Distribution.png)
-![Delay Distribution](images/Delay Distribution.png)
+#### 🟢 A. Univariate Analysis
+- Conducted **histograms** and **boxplots** to explore key metrics such as **Profit**, **Total Cost**, and **Delay Duration**.  
+- Performed **value counts** for categorical variables like **Company**, **Shipment Mode**, and **Shipment Priority**.  
 
+**Visualizations:**  
+![Total Cost Distribution](images/Total%20Cost%20Distribution.png)  
+*Distribution of total shipment costs.*
 
-#### B. Bivariate & Multivariate Analysis
-- Scatterplots and boxplots to explore relationships (e.g., Cost vs Distance).  
-- Correlation heatmap to understand relationships among numeric features.  
-- Insights derived on how mode, distance, and weight impact total shipment cost.
+![Delay Distribution](images/Delay%20Distribution.png)  
+*Distribution of shipment delays across all records.*
 
-![Delay by Category](images/Delay by Category.png)
-![Profit by category](images/profit by Category.png)
-![Shipment cost by company](images/Shipment cost by company.png)
-![Frequency by Shipment mode](images/Frequency_by_shipment_mode.png)
-![Frequency by shipment priority](images/Frequency_by_shipment_priority.png)
-![Correlation Heatmap](images/correlation.png)
+---
+
+#### 🔵 B. Bivariate & Multivariate Analysis
+- Analyzed relationships between **Shipment Cost**, **Distance**, and **Weight** using scatterplots and boxplots.  
+- Created a **correlation heatmap** to identify relationships between numerical variables.  
+- Compared shipment patterns across **companies**, **modes**, and **priorities** to identify efficiency gaps.  
+
+**Visualizations:**  
+![Delay by Category](images/Delay%20by%20Category.png)  
+*Average delay segmented by delay category.*
+
+![Profit by Category](images/profit%20by%20category.png)  
+*Profit variation across product categories.*
+
+![Shipment Cost by Company](images/frequency%20distribution%20by%20company.png)  
+*Average shipment cost comparison across logistics companies.*
+
+![Shipment Frequency by Mode](images/Frequency%20by%20shipment%20mode.png)  
+*Shipment distribution across transportation modes.*
+
+![Shipment Frequency by Priority](images/Frequency%20by%20shipment%20priority.png)  
+*Distribution of shipments by delivery priority.*
+
+![Correlation Heatmap](images/correlation.png)  
+*Heatmap illustrating correlations among numeric variables.*
+
 
 
 ### ⚙️ 3. Feature Engineering
